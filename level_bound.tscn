@@ -1,8 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://s4xyq6dir31a"]
+[gd_scene load_steps=3 format=3 uid="uid://s4xyq6dir31a"]
 
-[ext_resource type="PackedScene" path="res://platform.tscn" id="1_0pvyv"]
+[ext_resource type="PackedScene" uid="uid://ckmfk8glwcqau" path="res://platform.tscn" id="1_0pvyv"]
+[ext_resource type="Script" path="res://level_bound.gd" id="1_d78kb"]
 
 [node name="Level_bound" type="Node2D"]
+position = Vector2(152, 224)
+script = ExtResource("1_d78kb")
+metadata/_edit_vertical_guides_ = [304.0, 16.0]
+metadata/_edit_horizontal_guides_ = [304.0]
 
 [node name="Platform" parent="." instance=ExtResource("1_0pvyv")]
 position = Vector2(-32, 88)
@@ -40,6 +45,174 @@ position = Vector2(-128, 88)
 [node name="Platform20" parent="." instance=ExtResource("1_0pvyv")]
 position = Vector2(-144, 88)
 
+[node name="Platform21" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, 72)
+
+[node name="Platform22" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, 56)
+
+[node name="Platform23" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, 40)
+
+[node name="Platform24" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, 24)
+
+[node name="Platform25" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, 8)
+
+[node name="Platform26" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -8)
+
+[node name="Platform27" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -24)
+
+[node name="Platform28" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -40)
+
+[node name="Platform29" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -56)
+
+[node name="Platform30" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -104)
+
+[node name="Platform33" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -120)
+
+[node name="Platform34" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -136)
+
+[node name="Platform35" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -152)
+
+[node name="Platform36" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -168)
+
+[node name="Platform37" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -184)
+
+[node name="Platform38" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -200)
+
+[node name="Platform39" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -216)
+
+[node name="Platform40" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-128, -216)
+
+[node name="Platform41" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-112, -216)
+
+[node name="Platform42" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-96, -216)
+
+[node name="Platform43" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-80, -216)
+
+[node name="Platform44" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-64, -216)
+
+[node name="Platform45" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-48, -216)
+
+[node name="Platform46" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-32, -216)
+
+[node name="Platform47" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-16, -216)
+
+[node name="Platform48" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(0, -216)
+
+[node name="Platform49" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(16, -216)
+
+[node name="Platform50" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(32, -216)
+
+[node name="Platform51" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(48, -216)
+
+[node name="Platform52" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(64, -216)
+
+[node name="Platform53" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(80, -216)
+
+[node name="Platform54" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(96, -216)
+
+[node name="Platform55" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(112, -216)
+
+[node name="Platform56" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(128, -216)
+
+[node name="Platform57" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(144, -216)
+
+[node name="Platform58" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -216)
+
+[node name="Platform59" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -200)
+
+[node name="Platform60" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -184)
+
+[node name="Platform61" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -168)
+
+[node name="Platform62" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -152)
+
+[node name="Platform63" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -136)
+
+[node name="Platform64" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -120)
+
+[node name="Platform65" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -104)
+
+[node name="Platform66" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -88)
+
+[node name="Platform67" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -72)
+
+[node name="Platform68" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -56)
+
+[node name="Platform69" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -40)
+
+[node name="Platform70" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -24)
+
+[node name="Platform71" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, -8)
+
+[node name="Platform72" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, 8)
+
+[node name="Platform73" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, 24)
+
+[node name="Platform74" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, 40)
+
+[node name="Platform75" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, 56)
+
+[node name="Platform76" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(160, 72)
+
+[node name="Platform31" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -72)
+
+[node name="Platform32" parent="." instance=ExtResource("1_0pvyv")]
+position = Vector2(-144, -88)
+
 [node name="Platform4" parent="." instance=ExtResource("1_0pvyv")]
 position = Vector2(0, 88)
 
@@ -65,4 +238,5 @@ position = Vector2(96, 88)
 position = Vector2(112, 88)
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(24, -120)
 zoom = Vector2(3, 3)
