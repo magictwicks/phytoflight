@@ -1,6 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://baj7lye1ypgv3"]
+[gd_scene load_steps=4 format=3 uid="uid://8dpcxcce42t7"]
 
-[ext_resource type="Script" path="res://Player.gd" id="1_shy7h"]
+[ext_resource type="Script" path="res://Scripts/Player.gd" id="1_u0g7g"]
+[ext_resource type="Texture2D" uid="uid://boqxr28uytf8m" path="res://images/algae.png" id="2_xhypb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p0j10"]
+size = Vector2(16, 16)
 
 [node name="Player" type="CharacterBody2D"]
-script = ExtResource("1_shy7h")
+script = ExtResource("1_u0g7g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_p0j10")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_xhypb")

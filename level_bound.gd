@@ -23,6 +23,7 @@ func generate_platforms():
 		add_child(levelplat)
 		
 		print(platformPosition)
+
 func isValidPosition(pos):
 	# Check if the position is within the box and not too close to other platforms
 	for child in get_children():
